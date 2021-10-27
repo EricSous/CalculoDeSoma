@@ -1,17 +1,17 @@
 package calculadora;
 
 public class Numero {
-    private int valor;
+    private double valor;
 
     public Numero() {
         this.valor = 0;
     }
-    public void setValor(int valor){
-        this.valor=valor;
+
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 
-    public int getValor() {
-        return this.valor;
+    public double getValor() {
+        return valor;
     }
-
 }
